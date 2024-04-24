@@ -26,17 +26,15 @@ html {
 .banner {
     /* vh é a porcentagem da altura da tela e vw a da largura */
 
-
     height: 100vh;
 
-    background-image: linear-gradient(90deg, rgba(115, 115, 115, 1) 0%, rgba(255, 255, 255, 0.8)100%);
+    background-image: url(img/fundo.png);
     background-repeat: no-repeat;
-
-    background-position: 165% 40%;
+    background-position: 40% 90%;
 }
 
 header {
-    height: 200px;
+    height: 165px;
 }
 
 header button {
@@ -44,7 +42,7 @@ header button {
 }
 
 header img {
-    width: 90px;
+    width: 80px;
     
 
 }
@@ -67,7 +65,7 @@ header .container-grid {
 
 .menu a {
     font-size: 18px;
-    font-family: 'Anta';
+    font-family: "ClashDisplay";
 
     color: rgb(0, 0, 0);
 
@@ -86,11 +84,28 @@ header .container-grid {
 
     display: flex;
     align-items: flex-end;
+    justify-content: flex-end;
+    width: 100%;
 }
 
 .conteudo-banner p {
     color: rgb(0, 0, 0);
-
-    font-family: "ClashDisplay";
-    font-size: 100px;
+    font-family: "Panchang";
+    font-size: 50px;
 }
+
+    header button {
+        width: 50px;
+        justify-content: fle;
+
+        display: unset;
+
+        background: none;
+        border: none;
+    }
+
+    header svg {
+        fill: #000000;
+    }
+
+
