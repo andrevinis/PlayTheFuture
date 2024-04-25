@@ -16,6 +16,7 @@ html {
 .container-grid {
     width: 10vw;
     max-width: 1400px;
+    
 
     /*margin: 20px - espacamento externo de 20px */
 
@@ -92,6 +93,41 @@ header .container-grid {
     color: rgb(0, 0, 0);
     font-family: "Panchang";
     font-size: 50px;
+}
+
+#sobre {
+    height: 1000px;
+    padding: 220px 20%;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+    text-align: end;
+}
+
+h2 {
+    font-family: "ClashDisplay";
+    font-size: 40px;
+}
+
+#sobre p {
+
+    display: flex;
+    justify-content: right;
+   
+    font-family: "Clashdisplay";
+    font-size: 25px;
+    
+    height: 30%;
+    width: 60%;
+
+
+
+
+    text-align: center;
+
+    line-height: 1.0;
 }
 
     header button {
