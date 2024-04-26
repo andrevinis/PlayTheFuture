@@ -31,7 +31,7 @@ html {
 
     background-image: url(img/fundo.png);
     background-repeat: no-repeat;
-    background-position: 40% 90%;
+    background-position: 40% 95%;
 }
 
 header {
@@ -43,7 +43,7 @@ header button {
 }
 
 header img {
-    width: 80px;
+    width: 70px;
     
 
 }
@@ -61,6 +61,7 @@ header .container-grid {
 
     display: flex;
     justify-content: space-between;
+    
 
 }
 
@@ -93,39 +94,61 @@ header .container-grid {
     color: rgb(0, 0, 0);
     font-family: "Panchang";
     font-size: 50px;
+    
 }
 
 #sobre {
-    height: 1000px;
-    padding: 220px 20%;
+    padding: 100px;
+    padding-top: 250px;
+    display: flex;
+    justify-content: space-around;
+    padding-right: 100px;
+    padding-left: 200px;
+}
 
+#sobre img{
+    width: 500px;
+    
+}
+h2 {
+    text-align: center;
+}
+
+.conteudo-sobre{
     display: flex;
     flex-direction: column;
     justify-content: space-between;
+    align-items: right;
+    
+    
 
-    text-align: end;
+
 }
 
 h2 {
     font-family: "ClashDisplay";
-    font-size: 40px;
+    font-size: 50px;
+
+    width: 60%;
+    
+    
 }
 
 #sobre p {
-
-    display: flex;
     justify-content: right;
    
     font-family: "Clashdisplay";
     font-size: 25px;
     
-    height: 30%;
+    height: 40%;
     width: 60%;
 
+    
+
+    
 
 
-
-    text-align: center;
+    text-align: center  ;
 
     line-height: 1.0;
 }
@@ -145,3 +168,5 @@ h2 {
     }
 
 
+
+    
