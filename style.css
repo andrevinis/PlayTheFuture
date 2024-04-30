@@ -105,9 +105,9 @@ header .container-grid {
 
 #sobre {
     padding: 100px;
-    padding-top: 250px;
+    padding-top: 170px;
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     padding-right: 100px;
     padding-left: 200px;
 }
@@ -125,6 +125,7 @@ h2 {
     flex-direction: column;
     justify-content: space-between;
     align-items: right;
+    
     
 
 }
@@ -156,37 +157,49 @@ h2 {
 }
 
 #cases {
+    display: flex;
+    align-items: center;
+
+    flex-direction: column;
+
     text-align: center;
 
     padding-bottom: 100px;
-    margin-bottom: 00px;
-
-    margin: 50;
+   
 }
 
 #cases h2 {
+
     margin-bottom: 100px;
 
     font-family: "ClashDisplay";
-    font-size: 50px;
+    font-size: 55px;
 
+    color: #000000;
+   
+    padding-top: 70px;
 
-    align-items: center;
+    text-decoration: underline;
+    text-decoration-thickness: 2px;
 }
 
 #cases.container-grid{
    margin-top: 40px;
 
+
 }
 .container-cards {
     display: flex;
-    justify-content: space-between; 
 
     align-items: center;
 
     width: 40px;
 
-    width: 50vw;
+    width: 100vw;
+
+    text-align: center;
+    border: 3px 
+    
     
 }
 
@@ -205,10 +218,9 @@ h2 {
     }
 
     .card {
-        height: 320px;
-        width: 400px;
+        height: 700px;
+        width: 100%;
 
-        gap: 50px;
 
         display: flex;
         flex-direction: column;
@@ -218,15 +230,49 @@ h2 {
         padding-bottom: 20px;
         margin-bottom: 40px;
 
+
+        outline: 2px solid #a4a4a4;
+
         
     }
 
-    .card img {
-    height: 55%;
-    width: 100%;
+    .card img{
+        width: 330px;
 
-    border-radius: 4px 4px 0px 0px;
-}
+        padding-top: 300px;
+        
+    }
+
+    .card button {
+
+        width: 40%;
+        height: 40px;
+    
+        background-color: var(--laranja-gamifica);
+    
+        border: none;
+        border-radius: 4px;
+    
+        color: #ffffff;
+    
+        font-family: "ClashDisplay";
+        font-size: 20px;
+        font-weight: 600;
+    
+        cursor: pointer;
+
+        background-color: #a4a4a4;
+
+        outline: 2px solid #a4a4a4;
+
+        border-radius: 30px 30px 30px 30px;
+        
+       margin-bottom: 70px
+        
+    }
+
+
+    
 
 
     
