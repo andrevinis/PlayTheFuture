@@ -165,8 +165,11 @@ h2 {
     text-align: center;
 
     padding-bottom: 100px;
+
+    
    
 }
+
 
 #cases h2 {
 
@@ -179,8 +182,7 @@ h2 {
    
     padding-top: 70px;
 
-    text-decoration: underline;
-    text-decoration-thickness: 2px;
+    
 }
 
 #cases.container-grid{
@@ -231,7 +233,7 @@ h2 {
         margin-bottom: 40px;
 
 
-        outline: 2px solid #a4a4a4;
+        outline: 2px solid #C0C0C0;
 
         
     }
@@ -261,15 +263,111 @@ h2 {
     
         cursor: pointer;
 
-        background-color: #a4a4a4;
+        background-color: #C0C0C0;
 
-        outline: 2px solid #a4a4a4;
 
         border-radius: 30px 30px 30px 30px;
         
        margin-bottom: 70px
         
     }
+
+#avaliacao{
+    display: flex;
+    align-items: center;
+
+    flex-direction: column;
+
+    text-align: center;
+
+    padding-bottom: 100px;
+
+    background-image: url(img/Fundo2.png);
+    background-repeat: no-repeat;
+    background-position: 30% 100%;
+}
+
+#avaliacao.container-grid{
+    margin-top: 40px;
+ 
+ 
+ }
+ .container-avaliacao {
+     display: flex;
+
+     justify-content: center;
+     align-items: center;
+
+     justify-content: space-evenly;
+ 
+     width: 40px;
+     width: 100%;
+ 
+     text-align: center;
+     
+    
+     
+     
+ }
+ 
+     header svg {
+         fill: #000000;
+     }
+ 
+     .comentario {
+         height: 485px;
+         width: 25%;
+ 
+         display: flex;
+         flex-direction: column;
+         
+         align-items: center;
+ 
+         padding-bottom: 20px;
+         margin-bottom: 40px;
+ 
+         background-color: #efefef;
+
+         border-radius: 35px 35px 35px 35px;
+         
+     }
+ 
+     .comentario img{
+         width: 250px;
+         padding-top: 60px;
+         
+     }
+ 
+     .comentario p {
+        display: flex;
+
+        align-items: center;
+ 
+         width: 85%;
+         height: 100px;
+     
+     
+         border: none;
+         border-radius: 4px;
+     
+         color: #000000;
+     
+         font-family: "ClashDisplay";
+         font-size: 17px;
+         font-weight: 550;
+     
+         cursor: context-menu;
+ 
+         background-color: #ffffff;
+
+         margin-top: 25px;
+
+ 
+         border-radius: 35px 35px 35px 35px;
+         
+
+         
+     }
 
 
     
