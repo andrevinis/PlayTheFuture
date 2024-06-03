@@ -573,41 +573,30 @@ footer {
     margin-bottom: 70px;
 }
 
-#contato form {
-    width: 50%;
-
-    margin: 0 auto;
-    padding: 60px 0;
-
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-
-    border-radius: 80px;
-    background-color: var(--roxo-gamifica);
-
-    color: white;
-    font-family: "Montserrat";
-    font-size: 17px;
-
-}
-
 
 .campo {
-    width: 60%;
+    width: 65%;
 
     text-align: left;
 
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
 
-    margin-bottom: 50px;
+
+    margin-top: 10px;
+    margin-bottom: 14px;
+    
+
+    font-family: "Mulish";
+    font-size: 15px;
+    color: #ffffff;
+
 
 }
 
+
 .campo-descricao {
-    width: 60%;
+    width: 65%;
 
     text-align: left;
 
@@ -615,14 +604,20 @@ footer {
     flex-direction: column;
     justify-content: space-between;
 
-    margin-bottom: 30px;
+    margin-bottom: 10px;
+    
+
+    font-family: "Mulish";
+    font-size: 15px;
+
+    color: #ffffff;
 }
 
 .campo input {
     height: 40px;
 
     color: white;
-    background-color: #351868;
+    background-color: #ffffff;
 
     border: none;
     border-radius: 4px;
@@ -630,11 +625,15 @@ footer {
     text-indent: 10px;
 
     outline: none;
+
+    display: flex;
+    border-radius: 10px 10px 10px 10px;
 }
+
 
 .campo-descricao textarea {
     color: white;
-    background-color: #351868;
+    background-color: #ffffff;
 
     border: none;
     border-radius: 4px;
@@ -644,18 +643,35 @@ footer {
     padding: 10px;
 
     resize: none;
+
+    display: flex;
+    border-radius: 10px 10px 10px 10px;
 }
+
+.campos{
+    width: 95%;
+
+    text-align: left;
+
+    display: flex;
+    flex-direction: column;
+
+    align-items: flex-end;
+
+    
+}
+
 
 .campo label,
 .campo-descricao label {
-    margin-bottom: 15px;
+    margin-bottom: 8px;
 
 }
 
 .campo input,
 .campo-descricao textarea {
-    font-family: "Montserrat";
-    font-size: 17px;
+    font-family: "Mulish";
+    font-size: 15px;
 }
 
 .campo input::placeholder,
@@ -663,39 +679,27 @@ footer {
     color: #a0a0a0;
 }
 
-.campo input:focus,
-.campo-descricao textarea:focus {
-    outline: 2px solid var(--laranja-gamifica);
-}
 
-#contato form button {
-    height: 40px;
-    width: 60%;
+.campos button {
+    height: 20px;
+    width: 15%;
 
-    background-color: var(--laranja-gamifica);
+    background-color: #c0c0c0c0 ;
     color: white;
 
     border: none;
     border-radius: 4px;
 
-    font-size: 17px;
-    font-family: "Montserrat";
-    font-weight: 700;
-
-    text-transform: uppercase;
+    font-size: 15px;
+    font-family: "Mulish";
+    
 
     cursor: pointer;
 
-    transition: background-color 500ms;
+    transition: background-color 500ms; 
 }
 
-#contato form button:hover {
-    background-color: #ad4929;
+.campos button:hover {
+    background-color: #c0c0c0;
+    
 }
-     
-
-
-    
-    
-
-

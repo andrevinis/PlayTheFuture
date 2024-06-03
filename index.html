@@ -196,16 +196,19 @@
             </div>
             
             <form action="formulario">
-                <div class="campo">
-                    <label for="campo-email">Endereço de email</label>
-                    <input id="campo-email" placeholder="Digite aqui" type="email">
+                <div class="campos">
+                    <div class="campo">
+                        <label for="campo-email">Endereço de email</label>
+                        <input id="campo-email" placeholder="Digite aqui" type="email">
+                    </div>
+                    <div class="campo-descricao">
+                        <label for="campo-texto">Escreva sua mensagem</label>
+                        <textarea placeholder="Digite aqui" id="campo-texto" cols="70"
+                            rows="6"></textarea>
+                    </div>
+                    <button type="submit">Enviar</button>
                 </div>
-                <div class="campo-descricao">
-                    <label for="campo-texto">Escreva sua mensagem</label>
-                    <textarea placeholder="Digite aqui" id="campo-texto" cols="30"
-                        rows="10"></textarea>
-                </div>
-                <button type="submit">Enviar</button>
+
             </form>
         </div>
    </footer>
